@@ -29,9 +29,10 @@ cd ~/crowsnest
 sudo make install
 
 ### replacing power.cfg
-cd ~/klipper_config/klipper-config/
-sudo rm power.cfg
-git clone https://github.com/zavodik/Z-bolt-tips/power.cfg
+cd ~
+sudo rm ~/klipper_config/klipper-config/power.cfg
+git clone https://github.com/Z-Bolt/Z-Bolt-tips/
+cp ~/Z-Bolt-tips/16052023/power.cfg ~/klipper_config/klipper-config/
 
 ### remove PwerOFF.sh and rc-local.service
 cd ~
