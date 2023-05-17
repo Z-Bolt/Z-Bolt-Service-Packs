@@ -27,6 +27,7 @@
   echo "MJPG-Streamer successfully removed!"
 
 ### install crownest
+cd ~
 git clone https://github.com/zavodik/crowsnest.git
 cd ~/crowsnest
 sudo make install
