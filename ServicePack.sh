@@ -35,7 +35,6 @@ sudo make install
 ### replacing power.cfg
 cd ~
 sudo rm ~/klipper_config/klipper-config/power.cfg
-git clone https://github.com/Z-Bolt/Z-Bolt-Service-Packs/
 cp ~/Z-Bolt-Service-Packs/16052023/power.cfg ~/klipper_config/klipper-config/
 
 ### remove PwerOFF.sh and rc-local.service
