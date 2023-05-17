@@ -1,4 +1,7 @@
 #!/bin/bash
+# First service pack:
+# 1. Replacing MJPG-streamer with crowsnest
+# 2. Optimizing autoshutdown function
 
 ### remove MJPG-Streamer service
     echo "Removing MJPG-Streamer service ..."
